@@ -14,6 +14,7 @@ class MigrationPath:
         self.destination=destination
         self.duration=duration
         self.path_id=path_id
+        
     def get_migration_path_by_id(path_id: int) -> MigrationPath:
         pass
     
@@ -31,5 +32,8 @@ class MigrationPath:
     
     def remove_migration_path(path_id: int) -> None:
         pass
+    def schedule_migration(migration_path: MigrationPath) -> None:
+        pass
+
     pass
     
