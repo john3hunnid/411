@@ -17,6 +17,9 @@ class HabitatManager:
 
     def get_habitat_details(habitat_id: int) -> dict:
         pass
+    
+    def remove_habitat(habitat_id: int) -> None:
+        pass
 
     def get_habitats_by_geographic_area(geographic_area: str) -> List[Habitat]:
         pass
