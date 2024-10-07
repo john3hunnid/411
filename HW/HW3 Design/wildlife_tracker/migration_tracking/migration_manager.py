@@ -19,6 +19,9 @@ class MigrationManager:
     def get_migrations_by_status(status: str) -> list[Migration]:
         pass
     
+    def update_migration_details(migration_id: int, **kwargs: Any) -> None:
+        pass
+    
     def get_migration_by_id(migration_id: int) -> Migration:
         pass
     

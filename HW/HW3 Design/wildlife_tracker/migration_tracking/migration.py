@@ -19,8 +19,7 @@ class Migration:
     def remove_migration_path(path_id: int) -> None:
         pass
    
-    def update_migration_details(migration_id: int, **kwargs: Any) -> None:
-        pass
+
     
     def get_migration_paths() -> list[MigrationPath]:
         pass
