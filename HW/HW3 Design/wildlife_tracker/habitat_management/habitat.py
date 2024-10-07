@@ -22,8 +22,5 @@ class Habitat:
 def assign_animals_to_habitat(self, animals: List[Animal]) -> None:
     pass
 
-def get_animals_in_habitat(self) -> List[Animal]:
-    pass
-
 def get_habitat_details(self) -> dict:
     pass
