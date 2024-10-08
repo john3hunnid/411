@@ -19,8 +19,8 @@ class Habitat:
         #   self.animals = []
         self.animals = animals or []
 
-def assign_animals_to_habitat(self, animals: List[Animal]) -> None:
-    pass
+    def assign_animals_to_habitat(self, animals: List[Animal]) -> None:
+        pass
 
-def get_habitat_details(self) -> dict:
-    pass
+    def get_habitat_details(self) -> dict:
+        pass

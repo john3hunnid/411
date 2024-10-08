@@ -18,6 +18,9 @@ class HabitatManager:
     def get_habitat_details(habitat_id: int) -> dict:
         pass
     
+    def get_animals_in_habitat(habitat_id: int) -> List[Animal]:
+        pass
+    
     def remove_habitat(habitat_id: int) -> None:
         pass
 

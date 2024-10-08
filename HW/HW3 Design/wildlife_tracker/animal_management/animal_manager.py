@@ -14,3 +14,6 @@ class AnimalManager:
 
     def remove_animal(self, animal_id: int) -> None:
         pass
+    
+    def update_animal_details(animal_id: int, **kwargs: Any) -> None:
+        pass
